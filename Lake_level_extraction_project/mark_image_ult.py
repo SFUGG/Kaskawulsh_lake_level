@@ -32,6 +32,6 @@ def horizontal_draw(ref_image, marked_value, start_profiles, end_profiles, num_p
 
 
 if __name__ == '__main__':
-    # mass_draw(f"Marked_photo", 'increase', 4)
-    # mass_draw(f"Marked_photo", 'decrease', 4)
+    mass_draw(f"Marked_photo", 'increase', 4)
+    mass_draw(f"Marked_photo", 'decrease', 4)
     mass_draw(f"Marked_photo", '2022', 4)

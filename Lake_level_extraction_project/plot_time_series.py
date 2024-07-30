@@ -75,11 +75,8 @@ def plot_all_time_series(period, num_profiles):
 
 
 if __name__ == '__main__':
-    '''
     plot_all_time_series("decrease", 250)
     plot_all_time_series("decrease", 350)
     plot_all_time_series("increase", 250)
     plot_all_time_series("increase", 350)
-    '''
-    # plot_all_time_series("2022", 300)
-    plot_all_time_series("2022", 100)
+    plot_all_time_series("2022", 300)

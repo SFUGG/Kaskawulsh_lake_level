@@ -58,9 +58,6 @@ def create_coord_by_horizontal_profiles(images_director, images_info, image_widt
 
 
 if __name__ == '__main__':
-
-    marked_color = (255, 0, 255)  # magneta
-    '''
     image_width = 7392
     images_dir = "decrease"
     images_info = pd.read_csv("KW_lowerlake_2023.csv")
@@ -70,7 +67,6 @@ if __name__ == '__main__':
     images_dir = "increase"
     extract_coord_by_image(images_dir, marked_color)
     create_coord_by_horizontal_profiles(images_dir, images_info, image_width)
-    '''
     images_info = pd.read_csv("KW_lowerlake_2022.csv")
     images_dir = "2022_seawall"
     image_width = 5888

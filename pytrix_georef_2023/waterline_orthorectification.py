@@ -121,7 +121,6 @@ if __name__ == '__main__':
     inglefield_gcps = f'cam_data/gcps_{dem_used}{input_prefix}.txt'
     # retrive x,y from csv
     df = pd.read_csv(f"csv_data/lake_level_750_999_{period}.csv", parse_dates=["Date Time, GMT-07:00"])
-    # df.y = df.y + 21
     georef(camenv=ingleCamEnv, calibimg=ingle_calibimg,
            gcps_files=inglefield_gcps, df=df,
            optparams=optimization_scheme["para"], optmethod=optimization_scheme["method"],

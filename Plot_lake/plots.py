@@ -179,5 +179,5 @@ def hypsometric_curve_area(xyz, vmax, vmin, increment, resolution):
 if __name__ == '__main__':
     xyz_df = pd.read_csv('data/lake_GLO30.csv', names=["x", "y", "z"])
     plot_dem(xyz_df)
-    # create_elevation_profiles(xyz_df)
+    create_elevation_profiles(xyz_df)
     hypsometric_curve_area(xyz_df, 1000, 960, 1, 20)

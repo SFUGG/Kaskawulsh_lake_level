@@ -28,17 +28,15 @@ def average_by_profile_windows(image_directory, start_profiles, end_profiles, nu
 
 
 if __name__ == '__main__':
-    '''
     images_dir = "decrease"
     average_by_profile_windows(images_dir, 500, 2750, 250)
     average_by_profile_windows(images_dir, 350, 2800, 350)
     images_dir = "increase"
     average_by_profile_windows(images_dir, 0, 7392, 350)
     average_by_profile_windows(images_dir, 0, 7392, 250)
-    '''
     images_dir = "2022"
-    # average_by_profile_windows(images_dir, 2100, 3000, 300)
-    # average_by_profile_windows(images_dir, 2000, 3100, 100)
+    average_by_profile_windows(images_dir, 2100, 3000, 300)
+    average_by_profile_windows(images_dir, 2000, 3100, 100)
     images_dir = "2022_seawall"
     average_by_profile_windows(images_dir, 3925, 4080, 155)
 
