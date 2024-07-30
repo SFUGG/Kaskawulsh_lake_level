@@ -1,0 +1,32 @@
+GLO CGPs Optimization (refer to ref_cgp.jpeg for reference):
+    All CGPs remained:
+        Original px residuals (average): 3961.697551025861
+        Optimised px residuals (average): 107.35064323340949
+    Removing CGP 5
+        Original px residuals (average): 3660.968843020527
+        Optimised px residuals (average): 76.2438995084585
+    Removing CGP 5, 7 and 8
+        Original px residuals (average): 3858.8646606357283
+        Optimised px residuals (average): 61.45620271071639
+    Removing CGP 5, 9
+        Original px residuals (average): 3296.9175392959714
+        Optimised px residuals (average): 39.964994609045256
+    Removing CGP 5, 7, 8 and 9
+        Original px residuals (average): 3406.4455586055215
+        Optimised px residuals (average): 38.39883152435768
+    Removing CGP 3, 5, 9
+        Original px residuals (average): 3337.450806091433
+        Optimised px residuals (average): 28.80317695983362
+Optimization Method:
+    Optimize YPR using Trust Region Reflective algorithm:
+        Original px residuals (average): 3961.697551025861
+        Optimised px residuals (average): 107.35064323340949
+    Optimize YPR using dogbox
+        Original px residuals (average): 3961.697551025861
+        Optimised px residuals (average): 107.35113689525731
+    Optimize YPR using lm
+        Original px residuals (average): 3961.697551025861
+        Optimised px residuals (average): 107.35065014547214
+Arctic Result:
+    Original px residuals (average): 4209.370590856537
+    Optimised px residuals (average): 94.86892022747483

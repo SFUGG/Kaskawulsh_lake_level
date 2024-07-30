@@ -1,0 +1,26 @@
+### FORMAT: Camera environment name, GCP path, DEM path, Image path,
+### Calibration path, Camera location, Yaw pitch roll
+
+Camera_environment_name # Name of CamEnv class
+CAM_GLO_2023
+
+GCP_path #Path name where Ground Control Point data can be found
+cam_data/gcps_glo_opt3.txt
+
+DEM_path #Path name where DEM data can be found
+cam_data/DEM_2018september_Clipped.tif
+
+image_path #Path name where master image can be found
+cam_data/images/increase/IM_00025.JPG
+
+Calibration_path #Path name where camera calibration file can be found
+[cam_data/calibration/test_im3_calib.txt,cam_data/calibration/test_im5_calib.txt,cam_data/calibration/test_im6_calib.txt,cam_data/calibration/test_im7_calib.txt]
+
+Camera_location #Location of camera in xyz coordinates
+[625534 6743143 1013.61]
+
+Yaw_pitch_roll #Yaw, pitch, roll estimate 
+[180 0 0] 
+
+Dem_densification #Amount to densify the DEM to permit better mapping of image
+1
